@@ -7,12 +7,12 @@
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../product-catalog" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/product-catalog" />
         <option name="gradleHome" value="/opt/gradle/latest" />
-        <option name="gradleJvm" value="11" />
+        <option name="gradleJvm" value="11 (2)" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/../product-catalog" />
+            <option value="$PROJECT_DIR$/product-catalog" />
           </set>
         </option>
       </GradleProjectSettings>

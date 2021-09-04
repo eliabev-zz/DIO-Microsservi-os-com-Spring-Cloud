@@ -9,6 +9,5 @@ public class ProductCatalogApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProductCatalogApplication.class, args);
 	}
-// teste
 
 }
