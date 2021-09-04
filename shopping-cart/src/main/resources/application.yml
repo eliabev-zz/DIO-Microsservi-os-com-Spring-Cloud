@@ -1,12 +1,6 @@
-server:
-  port: 8082
-
-# eureka server url
-eureka.client.service-url.defaultZone=http://localhost:6379/eureka
-eureka.client.registerWithEureka=true
-eureka.client.fetchRegistry=true
-client:
-  registerWithEureka: false
-  fetchRegistry: false
-  serviceUrl:
-  defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  application:
+    name: shopping-cart
+  cloud:
+    config:
+      uri: http://localhost:8888
